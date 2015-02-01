@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ListView嵌套</string>
+    <string name="menu_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="question">本Demo演示了ScrollView中嵌套ListView(GridView、ExpandableListView)的问题的几个解决方法。</string>
+
+</resources>

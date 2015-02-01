@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/question" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="下面是ScrollView中直接嵌套ListView的实际效果" />
+            <LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:background="#000">
+	            <ListView 
+	                android:id="@+id/activity_main_lv"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:background="#fff"></ListView>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="解决方案一：" />
+
+            <Button
+                android:id="@+id/activity_main_bt_solution1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="手动设置ListView的高度" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="解决方案二：" />
+
+            <Button
+                android:id="@+id/activity_main_bt_solution2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="使用单个ListView取代ScrollView中所有内容" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="解决方案三：" />
+
+            <Button
+                android:id="@+id/activity_main_bt_solution3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="使用LinearLayout取代ListView" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="解决方案四：" />
+
+            <Button
+                android:id="@+id/activity_main_bt_solution4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="自定义可适应ScrollView的ListView" />
+            
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="解决方案五：（无法达到预定效果）" />
+
+            <Button
+                android:id="@+id/activity_main_bt_solution5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="设置ScrollView的属性，使之能够嵌套ListView" />
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
