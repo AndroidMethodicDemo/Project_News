@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 橙色字体 -->
+    <color name="default_text_color">#FE7725</color>
+    <!-- 分页-灰 -->
+    <color name="default_pages_unable">#82807F</color>
+    <!-- 分页-橙 -->
+    <color name="default_pages_enable">#F65F0C</color>
+    <color name="top_backgroud">#26000000</color>
+    <color name="login_backgroud">#F0000000</color>
+    <!-- 菜单蓝色全背景 -->
+    <color name="menu_blue">#cc6ad1e1</color>
+    <color name="menu_text_bule">#6ad1e1</color>
+    <color name="menu_text_gray">#bfbfbf</color>
+
+</resources>
