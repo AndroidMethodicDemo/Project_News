@@ -22,6 +22,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.andong.pullrefresh.ui.ACT_Demo2" />
+        <activity android:name="com.andong.pullrefresh.ui.ACT_Detail" />
     </application>
 
 </manifest>

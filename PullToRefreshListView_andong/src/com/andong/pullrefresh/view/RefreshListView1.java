@@ -3,10 +3,6 @@ package com.andong.pullrefresh.view;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import com.andong.pullrefresh.R;
-import com.andong.pullrefresh.R.id;
-import com.andong.pullrefresh.R.layout;
-
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
@@ -20,6 +16,12 @@ import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import com.andong.pullrefresh.R;
+/**
+ * LoadDataCallback中的loadNewData和loadOldData是在主线程中的，所以如果需要加载网络数据，需要开启子线程
+ * @author yajun
+ *
+ */
 public class RefreshListView1 extends ListView implements OnScrollListener {
 	
 	private int firstVisibleItem;
